@@ -1,7 +1,7 @@
 package homeWork1;
 
 import java.util.Scanner;
-1
+
 public class Main {
 
     public static void main(String[] args) {
