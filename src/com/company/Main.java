@@ -8,10 +8,8 @@ public class Main {
 
 
         //1.1 Вывести в консоль максимальное и минимальное значения типа int, используя класс Integer
-        int min = Integer.MAX_VALUE;
-        System.out.println("Integer min value is: " + min);
-        int max = Integer.MIN_VALUE;
-        System.out.println("Integer max value is: " + max);
+        System.out.println("Integer min value is: " + Integer.MIN_VALUE);
+        System.out.println("Integer max value is: " + Integer.MAX_VALUE);
 
         //1.2 В переменную записать 3х значное натуральное число, вывести в консоль сумму цифр числа
         Scanner scanner = new Scanner(System.in);
