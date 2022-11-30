@@ -36,5 +36,6 @@ public class dogShelter {
         Dogs Corgi = new Dogs();
         System.out.println("Dogs name is " + Corgi.name + " his age is " + Corgi.age);
     }
+
 }
 
