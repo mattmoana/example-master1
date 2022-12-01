@@ -30,7 +30,11 @@ public class Main {
         int z = x % y;
         System.out.println("Остаток от деления этих двух чисел: " + z);
 
+        square();
+    }
+    public static void square() {
         //1.4 Напишите метод, который будет вычислять площадь прямоугольника и выводить результат в консоль, вызовите этот из main
+        Scanner scanner = new Scanner(System.in);
         System.out.println("\nВведите сторону а: ");
         int a = scanner.nextInt();
         System.out.println("Введите сторону б: ");
@@ -38,6 +42,7 @@ public class Main {
         int squareOfNumbers = a * b;
         System.out.println("Площадь прямоугольника: " + squareOfNumbers);
     }
+
 }
 
 
