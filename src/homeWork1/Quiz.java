@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class Quiz {
 
     public static void main(String[] args) {
-        int correctAnswers = 0;
-        int incorrectAnswers = 0;
+        byte correctAnswers = 0;
+        byte incorrectAnswers = 0;
         System.out.println("Выберите правильный вариант ответа.");
         String question1 = "\nКак хочет полететь на луну? \n1) Jeff Bezos\n2) Elon Musk\n3) Joe Biden ";
         System.out.println(question1);
