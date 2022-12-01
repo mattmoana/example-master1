@@ -7,10 +7,9 @@ public class Main {
     public static void main(String[] args) {
 
         //1.1 Вывести в консоль максимальное и минимальное значения типа int, используя класс Integer
-        int min = Integer.MAX_VALUE;
-        System.out.println("Integer min value is: " + min);
-        int max = Integer.MIN_VALUE;
-        System.out.println("Integer max value is: " + max);
+        System.out.println("Integer min value is: " + Integer.MIN_VALUE);
+        System.out.println("Integer max value is: " + Integer.MAX_VALUE);
+
 
         //1.2 В переменную записать 3х значное натуральное число, вывести в консоль сумму цифр числа
         Scanner scanner = new Scanner(System.in);
@@ -24,12 +23,12 @@ public class Main {
         System.out.println("Сумма цифр цисла: " + sum);
 
         //1.3 В переменные x и y записать два натуральных числа, вывести в консоль остаток от деления x и y
-        System.out.println("\nВведите число x: ");
+        System.out.println("\nВведите 1е натуральное число: ");
         int x = scanner.nextInt();
-        System.out.println("Введите число y: ");
+        System.out.println("Введите 2е натуральное число: ");
         int y = scanner.nextInt();
         int z = x % y;
-        System.out.println("Остаток: " + z);
+        System.out.println("Остаток от деления этих двух чисел: " + z);
 
         //1.4 Напишите метод, который будет вычислять площадь прямоугольника и выводить результат в консоль, вызовите этот из main
         System.out.println("\nВведите сторону а: ");
