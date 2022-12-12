@@ -29,8 +29,9 @@ public class Arrays {
         for (int i : firstArray) {
             sum += i;
         }
-        System.out.println(sum);
-        System.out.println(evenArray);
+
+        System.out.println("Sum of all numbers in array is : " + sum);
+        System.out.println("List of even arrays is : " + evenArray);
     }
 
 }
