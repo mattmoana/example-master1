@@ -29,6 +29,8 @@ public class Arrays3 {
             case "Winter":
                 System.out.println("December, January, February");
                 break;
+            default:
+                System.out.println("Check");
         }
     }
 }
